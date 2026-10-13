@@ -1,0 +1,18 @@
+# Git Ignore para Android ADB & Tweaks
+*.log
+*.tmp
+*.bak
+dump/
+dumps/
+logs/
+
+# Sistema operacional e IDEs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Arquivos locais com dados sensíveis ou temporários
+local.env
+.env
