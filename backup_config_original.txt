@@ -1,0 +1,74 @@
+# backup Thu Oct  1 20:53:34 HPC 2026
+global app_auto_restriction_enabled=1
+global app_standby_enabled=1
+global settings_enable_monitor_phantom_procs=null
+global adaptive_battery_management_enabled=null
+secure adaptive_battery_management_enabled=null
+device_config thrashing_limit_critical=300
+device_config bg_current_drain_auto_restrict_abusive_apps_enabled=false
+device_config bg_prompt_fgs_on_long_running=false
+device_config push_messaging_over_quota_behavior=1
+disabled_before package:com.ontim.launcher3.overlay.altice
+disabled_before package:com.altice.android.myapps
+disabled_before package:com.aura.oobe.motorola
+disabled_before package:com.amazon.appmanager
+disabled_before package:com.inmobi.weather
+disabled_before package:com.orange.aura.oobe
+disabled_before package:com.ontim.launcher3.overlay.amxmx
+disabled_before package:com.sfr.android.sfrjeux
+disabled_before package:de.telekom.tsc
+disabled_before package:com.telcel.contenedor
+disabled_before package:com.ontim.launcher3.overlay
+disabled_before package:com.dti.motorola
+disabled_before package:com.orange.update
+disabled_before package:com.taboola.ody
+disabled_before package:com.motorola.paks
+disabled_before package:com.ironsource.appcloud.oobe.hutchison
+disabled_before package:com.ontim.launcher3.overlay.indus.appstore
+disabled_before package:co.sitic.pp
+disabled_before package:com.ontim.launcher3.overlay.retru
+disabled_before package:com.motorola.brapps
+disabled_before package:com.payjoy.access
+disabled_before package:com.indus.appstore
+disabled_before package:com.google.android.gms.supervision
+disabled_before package:com.motorola.motosignature.app
+disabled_before package:com.android.devicelockcontroller
+appops com.happymod.apk RUN_ANY_IN_BACKGROUND=RUN_ANY_IN_BACKGROUND: ignore
+appops com.kryptex.miner RUN_ANY_IN_BACKGROUND=RUN_ANY_IN_BACKGROUND: ignore
+appops net.ctpool RUN_ANY_IN_BACKGROUND=No operations.
+Default mode: allow
+appops com.kunpo88.baba2.say RUN_ANY_IN_BACKGROUND=No operations.
+Default mode: allow
+appops com.kunpo88.baba2.tay RUN_ANY_IN_BACKGROUND=No operations.
+Default mode: allow
+appops apkshare.shareapps.filetransfer.shareit.bluetooth RUN_ANY_IN_BACKGROUND=No operations.
+Default mode: allow
+appops free.vpn.unblock.proxy.turbovpn RUN_ANY_IN_BACKGROUND=RUN_ANY_IN_BACKGROUND: ignore
+appops com.urbanvpn.android RUN_ANY_IN_BACKGROUND=RUN_ANY_IN_BACKGROUND: ignore
+appops com.vpn.lat RUN_ANY_IN_BACKGROUND=RUN_ANY_IN_BACKGROUND: ignore
+appops com.google.android.apps.chromecast.app RUN_ANY_IN_BACKGROUND=RUN_ANY_IN_BACKGROUND: ignore
+appops com.facebook.katana RUN_ANY_IN_BACKGROUND=No operations.
+Default mode: allow
+appops com.instagram.barcelona RUN_ANY_IN_BACKGROUND=RUN_ANY_IN_BACKGROUND: ignore
+# rodada 2 Thu Oct  1 21:06:24 HPC 2026
+disabled_round2 com.google.android.projection.gearhead
+disabled_round2 com.google.android.apps.wellbeing
+disabled_round2 com.motorola.motocare
+disabled_round2 com.google.android.adservices.api
+disabled_round2 com.google.android.as
+disabled_round2 com.motorola.timeweatherwidget
+appops com.mercadopago.wallet RUN_ANY_IN_BACKGROUND=RUN_ANY_IN_BACKGROUND: ignore
+appops com.openai.chatgpt RUN_ANY_IN_BACKGROUND=RUN_ANY_IN_BACKGROUND: ignore
+appops org.telegram.messenger RUN_ANY_IN_BACKGROUND=No operations.
+Default mode: allow
+appops com.finguia RUN_ANY_IN_BACKGROUND=RUN_ANY_IN_BACKGROUND: ignore
+uninstalled com.kryptex.miner
+uninstalled net.ctpool
+uninstalled com.happymod.apk
+uninstalled free.vpn.unblock.proxy.turbovpn
+uninstalled com.urbanvpn.android
+uninstalled com.vpn.lat
+uninstalled com.kunpo88.baba2.say
+uninstalled com.kunpo88.baba2.tay
+uninstalled apkshare.shareapps.filetransfer.shareit.bluetooth
+# rodada 3 Thu Oct  1 21:16:27 HPC 2026: psi_complete_stall_ms antes=ro 150, psi_partial_stall_ms antes=ro 50
